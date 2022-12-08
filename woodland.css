@@ -1,0 +1,116 @@
+.carousel-Indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+
+
+  .rohggw{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    margin: 0;
+    display: block;
+    color: #212529;
+  
+
+
+  }
+
+ .jhgh{
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+
+  .maincons{
+    background: rgb(0, 0, 0);
+
+  }
+  .maincons:hover{
+    background:#2c6431;;
+  }
+  
+  .row{
+    padding: 0;
+  }
+  
+  .text-center {
+    text-align: left!important; 
+    color: white;
+}
+
+.footer-part{
+ 
+display: grid;
+}
+.mob-footer-end{
+  width: unset;
+  
+
+}
+
+.mob-footer-end1{
+  width: fit-content;
+    margin: auto;
+  
+
+}
+
+.mob-footer-01{
+  text-align: center;
+}
+@media(min-width:768px){
+  .mob-footer-end{
+    width: fit-content;
+    margin-left: auto;
+  }
+  
+  .mob-footer-end1{
+    width: unset;
+  }
+
+  .mob-footer-01{
+    text-align: unset;
+  }
+}
+@media(max-width:992px){
+    div.first-imgtxt{
+        display: none;
+    }
+
+    .footer-part{
+      width: fit-content;
+    margin: auto;
+   
+    }
+
+
+}
+.card-img{
+        --bs-gutter-x: 0rem;
+}
+.row li a{
+  text-decoration: none;
+}
+
+.footer-social{
+  text-decoration: none;
+  color: white;
+}
+.final{
+  color: white;
+  text-decoration: none;
+}
+@media(max-width:768px){
+  .itext{
+    font-size: 18px;
+  }
+}
